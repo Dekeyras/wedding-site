@@ -29,13 +29,14 @@
                 <li><a href="/index.html">HOME</a></li>
                 <li><a href="/details.html">DETAILS</a></li>
                 <li><a href="/getting-there.html">GETTING THERE</a></li>
-                <li class="active"><a href="#">RSVP</a></li>
+                <li class="active"><a href="#">GIFT IDEAS</a></li>
+                <li><a href="/rsvp.html">RSVP</a></li>
             </ul>
         </div>
     </div>
 </div>
 <!--navbar end-->
-<div class="container">
+<div class="container gift-list">
     <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
             <h1 class="heading">
@@ -45,12 +46,9 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam architecto asperiores atque blanditiis cumque delectus, dolores ducimus eaque eveniet impedit iste officia optio placeat, quidem quis reiciendis suscipit tempore!</p>
-        </div>
+    <div class="gifts">
+        <!--Gifts go here-->
     </div>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -60,14 +58,23 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="js/gifts.js"></script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-92891403-1', 'auto');
     ga('send', 'pageview');
 </script>
+
 </body>
 </html>
