@@ -1,0 +1,23 @@
+.detail-panel {
+    text-align: center;
+}
+
+.detail-panel .heading {
+    color: white;
+    font-family: 'moon-flower', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.detail-panel p {
+    font-size: 16px;
+}
+
+.detail-panel a {
+    text-decoration: none;
+    color: #333;
+}
+
+.panel-body {
+    padding-bottom: 20px;
+}

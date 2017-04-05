@@ -1,0 +1,37 @@
+.content {
+    padding-top: 150px;
+}
+
+.detail-panel {
+    text-align: center;
+}
+
+.detail-panel .heading {
+    color: #ffffff;
+    font-family: 'moon-flower', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.detail-panel > p {
+    font-size: 16px;
+}
+
+.detail-panel a {
+    text-decoration: none;
+    color: #333;
+}
+
+.parking {
+    padding-top: 20px;
+}
+
+.hotel-name {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+.heading {
+    font-family: 'moon-flower', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+    color:white;
+    padding-top: 150px;
+}
+
+form {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+form .radio {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button[type="submit"] {
+    background-color: #4f5b6e;
+    border-color: #4f5b6e;
+    color: #ffffff;
+
+}
+button[type="submit"]:hover {
+    background-color: #9ABFFC;
+    border-color: #9ABFFC;
+    color: #333333;
+}
+
+button[type="submit"]:active {
+    background-color: #4f5b6e;
+    border-color: #4f5b6e;
+}
+
+@media (max-width: 768px)  {
+    .heading {
+        padding-top: 20px;
+    }
+}

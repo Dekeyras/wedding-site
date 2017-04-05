@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "moon-flower";
+    src: url(/fonts/moon-flower.ttf);
+}
+
+body {
+    background: url(../img/background.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*.col, .row {*/
+    /*border: black dashed 1px;*/
+/*}*/
+
+.index-container {
+    font-family: 'moon-flower', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.index-details {
+    text-align: center;
+    padding-top: 250px;
+    margin-left: 100px;
+}
+
+.index-image {
+    padding-top: 120px;
+    margin-left: -60px;
+}
+
+.index-details h1, h2 {
+    margin-top: -7px;
+    font-weight: 600;
+}
+
+.index-details h1 {
+    font-size: 72px;
+}
+
+.index-details h2 {
+    padding-top: 10px;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+.h1.date {
+    font-size: 100px;
+    letter-spacing: 6px;
+}
+
+.index-details h1, h2 {
+    /*margin: 0px;*/
+}
+
+.navbar-nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand img {
+    margin-top: -10px;
+}
+
+
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+    padding-top: 5%;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.getting-there-container {
+    padding-top: 150px;
+}
+
+.bottom-map {
+    padding-top: 40px
+}
+
+@media (max-width: 768px) {
+    .index-details {
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    .index-image {
+        padding-top: 20px;
+        margin-top: -40px;
+        margin-left: 0;
+    }
+
+    .getting-there-container {
+        padding-top: 20px;
+    }
+}
