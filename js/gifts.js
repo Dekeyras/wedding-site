@@ -83,6 +83,10 @@ $(document).ready(function() {
         {
             text: 'Swan Cream "Retro" digital microwave',
             link: 'http://www.debenhams.ie/webapp/wcs/stores/servlet/prod_10052_10001_325009114782_-1?CMP=SSH&tmcampid=28&tmad=c&sku=7773471&cmp=KNC__683763090_39709337910__&mkwid=s%7cpcrid%7c155423928855%7cpkw%7c%7cpmt%7c%7cpdv%7cc%7cprd%7c7773471&gclid=Cj0KEQjwiI3HBRDv0q_qhqXZ-N4BEiQAOTiCHmT0qviZYr65qhJLFyJ9QUodO1k6Heal3tM5zkbablkaAnH48P8HAQ&gclsrc=aw.ds',
+        },
+        {
+            text: 'Dyson DC39 Multifloor',
+            link: 'http://www.harveynorman.ie/small-appliances/vacuum-cleaners/bagless-vacuum-cleaners/dyson-dc39-multifloor.html'
         }
     ];
 
